@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 136px;
+  margin: auto;
+  font-size: 26px;
+  font-family: 'Smooch Sans', sans-serif;
+  color: #333;
+  box-shadow: 5px 5px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.date-data {
+  margin: 0 6px;
+}
